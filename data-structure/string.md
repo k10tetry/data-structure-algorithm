@@ -10,14 +10,16 @@ string str4("first string", 6, 6); // string
 string str5(str2.begin(), str2.begin() + 5);
 ```
 
-## String Input Functions
+## String Functions
+
+### Input Functions
 
 ```
 getline(cin, str); // get string value from input stream
 push_back('c'); // input character at the end of string
 ```
 
-## String Capacity Functions
+### Capacity Functions
 
 ```
 pop_back(); // delete last character from string(c++11)
@@ -27,7 +29,7 @@ length(); // find the length of string
 shrink_to_fit(); // dec the capacity of string to minimum capacity
 ```
 
-## String Iterator Functions
+### Iterator Functions
 
 ```
 begin(); // iterator to the start of string
@@ -36,7 +38,7 @@ rbegin(); // reverse iterator to the end of string
 eebd(); //  reverse iterator to the start of string
 ```
 
-## String Conversion Function
+### Conversion Function
 
 ```
 stoi(); // convert string to int(c++11)
@@ -45,7 +47,7 @@ stod(); // convert string to double
 to_string(12); // convert int to string
 ```
 
-## Other String Functions
+### Other Functions
 
 ```
 copy("string", 2, 1); // target array, length, starting position
