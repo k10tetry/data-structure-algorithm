@@ -1,5 +1,18 @@
 # String
 
+- Strings are defined as an array of characters.
+- The difference between a character array and a string is the string is terminated with a special character '\0'.
+
+## Ways To Create String
+
+```cpp
+const char *colour[4] = {"Blue","Red","Orange","Yellow"}; // using pointers
+char colour[4][10] = {"Blue","Red","Orange","Yellow"}; // using 2D array
+string colour[4] = {"Blue","Red","Orange","Yellow"}; // using string class
+vector<string> colour {"Blue","Red","Orange","Yellow"}; // using vector class
+array<string,4> colour {"Blue","Red","Orange","Yellow"}; // using array class
+```
+
 ## String Constructors
 
 ```cpp
