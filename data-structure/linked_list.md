@@ -45,3 +45,20 @@ class Node
     Node* prev; // Pointer to previous node in DLL
 };
 ```
+
+## Applications of Linked List
+
+- Implementation of **stacks** and **queues**
+- Implementation of **graphs** : Adjacency list representation of graphs is most popular which is uses linked list to store adjacent vertices.
+- Maintaining directory of names.
+- Dynamic memory allocation : We use linked list of free blocks.
+
+## Basic Operations on Linked List
+
+- **Traversal**: To traverse all the nodes one after another.
+- **Insertion**: To add a node at the given position.
+- **Deletion**: To delete a node.
+- **Searching**: To search an element(s) by value.
+- **Updating**: To update a node.
+- **Sorting**: To arrange nodes in a linked list in a specific order.
+- **Merging**: To merge two linked lists into one.

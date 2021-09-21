@@ -12,7 +12,6 @@ Return the decimal value of the number in the linked list.
 Solved using string variable to store the int value and then using reverse iterator multiply the int with ith power of 2, time complexity 0ms and 100% faster
 */
 
-
 //  Definition for singly-linked list.
  struct ListNode {
     int val;
