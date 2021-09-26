@@ -55,8 +55,8 @@ class Node
 
 ## Basic Operations on Linked List
 
-- **Traversal**: To traverse all the nodes one after another.
-- **Insertion**: To add a node at the given position.
+- [Traversal](./code/linked_list_traverse_all_nodes.cpp): To traverse all the nodes one after another.
+- [Insertion](./code/linked_list_add_new_node.cpp): To add a node at the given position.
 - **Deletion**: To delete a node.
 - **Searching**: To search an element(s) by value.
 - **Updating**: To update a node.
