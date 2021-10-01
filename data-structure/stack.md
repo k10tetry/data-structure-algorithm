@@ -14,3 +14,20 @@ There are two ways to implement a stack:
 
 - [Using array](./code/stack_array.cpp)
 - [Using linked list](./code/stack_linked_list.cpp)
+
+## Stack in STL
+
+The STL (Standard Template Library) comes with template classes that provide common C++ data structures. Therefore, a stack can also be implemented in STL. We simply include this library in our code and use it to define a stack.
+
+```cpp
+stack<T> st;
+```
+
+Stack Operations:
+
+- push()
+- pop()
+- peek()
+- empty()
+- size()
+- top()
