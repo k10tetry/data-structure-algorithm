@@ -2,17 +2,16 @@
 
 Here, I am maintaining record of some important problems I have solved on various competitive programming websites and creating reading files of all data structures and algorithm topics.
 
-## Folder Structure
+## Data Structures
 
-<pre>
-|--- competitive_programming_website_name
-     |--- data_structure_name
-          |--- problem_number_name.cpp
-|--- data_structure_folder
-     |--- data_structure_name.md
-|----other
-     |----other_file.md
-</pre>
+- [String](data-structure/string.md)
+- [Linked List](data-structure/linked_list.md)
+- [Stack](data-structure/stack.md)
+- [Queue](data-structure/queue.md)
+
+## Advance Topics
+
+- [Pointers](other/pointers.md)
 
 ## MIT License
 
