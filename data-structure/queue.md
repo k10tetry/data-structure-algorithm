@@ -13,3 +13,4 @@ Mainly the following four basic operations are performed on queue:
 ## Queue Implementation
 
 - [Using array](./code/queue_array.cpp)
+- [Using linked list](./code/queue_linked_list.cpp)
