@@ -1,7 +1,6 @@
 # String
 
-- Strings are defined as an array of characters.
-- The difference between a character array and a string is the string is terminated with a special character '\0'.
+Strings are defined as an array of characters. The difference between a character array and a string is the string is terminated with a special character '\0'.
 
 ## Ways To Create String
 
@@ -48,7 +47,7 @@ shrink_to_fit(); // dec the capacity of string to minimum capacity
 begin(); // iterator to the start of string
 end(); // iterator to the end of string
 rbegin(); // reverse iterator to the end of string
-eebd(); //  reverse iterator to the start of string
+rend(); //  reverse iterator to the start of string
 ```
 
 ### Conversion Function
@@ -71,7 +70,6 @@ clear(); // empty the string
 at(0); // get character at position of string
 back(); // last character of string
 front(); // first character of string
-+ // append to the string
 append("str"); // append to the string
 assign("str") // assign content to string
 insert(0,"value"); // insert at position of string
