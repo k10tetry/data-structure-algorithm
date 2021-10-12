@@ -5,6 +5,7 @@ Here, I am maintaining record of some important problems I have solved on variou
 ## Data Structures
 
 - [String](data-structure/string.md)
+- [Array](data-structure/array.md)
 - [Linked List](data-structure/linked_list.md)
 - [Stack](data-structure/stack.md)
 - [Queue](data-structure/queue.md)
