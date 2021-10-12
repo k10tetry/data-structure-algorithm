@@ -47,7 +47,7 @@ shrink_to_fit(); // dec the capacity of string to minimum capacity
 begin(); // iterator to the start of string
 end(); // iterator to the end of string
 rbegin(); // reverse iterator to the end of string
-eebd(); //  reverse iterator to the start of string
+rend(); //  reverse iterator to the start of string
 ```
 
 ### Conversion Function
