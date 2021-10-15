@@ -2,13 +2,47 @@
 
 Here, I am maintaining record of some important problems I have solved on various competitive programming websites and creating reading files of all data structures and algorithm topics.
 
-## Data Structures
+## Topics
+
+### Data Structure
 
 - [String](data-structure/string.md)
 - [Array](data-structure/array.md)
 - [Linked List](data-structure/linked_list.md)
 - [Stack](data-structure/stack.md)
 - [Queue](data-structure/queue.md)
+
+### Alogithms
+
+- Algorithm Analysis
+- Greedy Algorithm
+- Recursion
+- Dynamic Programming
+- Searching Algorithm
+- Sorting Algorithm
+
+### Number Theory
+
+- Primality Test
+- Prime Factorization
+- Sieve of Eratosthenes
+- Binary Exponentiation
+- Euclid Algorithm for GCD
+- Goldbach's Conjecture
+- Finding number of divisors of N
+- Calculating Binomial Coefficient
+- Segmented Sieve
+- Modulo inverse
+
+- Extended Euclidean Algorithm
+- Linear diophantine equation
+- Matrix exponentiation
+- Fibonacci numbers in O(logn)
+- Chinese Remainder Theorm
+- Euler Totient Fuction
+- Sum of divisors
+- Pollard p-1 method
+- Pollard Rho Algorithm
 
 ## Advance Topics
 
