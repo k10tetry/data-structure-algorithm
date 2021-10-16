@@ -23,7 +23,7 @@ Here, I am maintaining record of some important problems I have solved on variou
 
 ### Number Theory
 
-- Primality Test
+- [Primality Test](number-theory/primality_test.md)
 - Prime Factorization
 - Sieve of Eratosthenes
 - Binary Exponentiation
