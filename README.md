@@ -24,8 +24,8 @@ Here, I am maintaining record of some important problems I have solved on variou
 ### Number Theory
 
 - [Primality Test](number-theory/primality_test.md)
-- Prime Factorization
-- Sieve of Eratosthenes
+- [Prime Factorization](number-theory/prime_factorization.md)
+- [Sieve of Eratosthenes](number-theory/primality_test.md)
 - Binary Exponentiation
 - Euclid Algorithm for GCD
 - Goldbach's Conjecture
