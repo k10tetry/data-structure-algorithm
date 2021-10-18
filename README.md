@@ -26,7 +26,7 @@ Here, I am maintaining record of some important problems I have solved on variou
 - [Primality Test](number-theory/primality_test.md)
 - [Prime Factorization](number-theory/prime_factorization.md)
 - [Sieve of Eratosthenes](number-theory/primality_test.md)
-- Binary Exponentiation
+- [Binary Exponentiation](number-theory/binary_exponentiation.md)
 - Euclid Algorithm for GCD
 - Goldbach's Conjecture
 - Finding number of divisors of N
