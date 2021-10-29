@@ -12,12 +12,12 @@ Let's take example of two matrix A and B
 <pre>
 | 1 2 | x | 2 2 |
 | 2 2 | x | 2 2 |
-<pre>
+</pre>
 
 <pre>
 | (A00 _ B00) + (A01 _ B10) (A00 _ B01) + (A01 _ B11) | = | 6 6 |
 | (A10 _ B00) + (A11 _ B10) (A10 _ B01) + (A11 _ B11) | = | 8 8 |
-<pre>
+</pre>
 
 The result of above squared matrix multiplication is 2 x 2 matrix i.e r1 x c2
 
@@ -32,6 +32,6 @@ Matrix-I x Matrix-A = Matrix-A
 <pre>
 | 1 0 | x | 1 2 | = | 1 2 |
 | 0 1 | x | 2 2 | = | 2 2 |
-<pre>
+</pre>
 
 [Matrix Exponentiation](./code/matrix_exponentiation.cpp)

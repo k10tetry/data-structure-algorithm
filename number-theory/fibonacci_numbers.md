@@ -21,7 +21,7 @@ To find the fibonacci number series in O(logn) time complexity we need to unders
 <pre>
 | fn0 fn1 | x | a b | = | fn1 fn2 |
               | c d |
-<pre>
+</pre>
 
 here fn0 and fn1 are initial numbers of the sequence and a b c d is transition matrix, on multiplication with transition matrix the result will be fn1 and fn2
 
