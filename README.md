@@ -36,8 +36,8 @@ Here, I am maintaining record of some important problems I have solved on variou
 
 - Extended Euclidean Algorithm
 - Linear diophantine equation
-- Matrix exponentiation
-- Fibonacci numbers in O(logn)
+- [Matrix exponentiation](number-theory/matrix_exponentiation.md)
+- [Fibonacci numbers in O(logn)](number-theory/fibonacci_numbers.md)
 - Chinese Remainder Theorm
 - Euler Totient Fuction
 - Sum of divisors
