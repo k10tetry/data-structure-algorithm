@@ -1,6 +1,6 @@
 # Prime Factorization
 
-"Prime Factorization" is finding which prime numbers multiply together to make the original number. N = 100, the prime factors are 2^2 * 5^2
+"Prime Factorization" is finding which prime numbers multiply together to make the original number. N = 100, the prime factors are 2^2 \* 5^2
 
 ## Naive Method
 
@@ -103,7 +103,7 @@ void primeFactors(int n){
     while(n > 1){
         int factor = primes[n];
         n /= factor;
-        cout << factor << " ";
+        cout << factor << ' ';
     }
     
     if(n > 1){

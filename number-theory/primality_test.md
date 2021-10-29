@@ -57,7 +57,7 @@ Let's find all the prime number from 1 to 50:
 - As the above process ends, we can iterate through the array and display all the number which are marked as prime(_true_)
 
 Now the question is why to iterate till sqrt of n, see that sqrt of 50 is around 7.07 so
-7 * b, considering multiples of 7 i.e (1, 2, 3, 4, 5, 6, 7, so on) b < 7 the result of their multiples were already marked as not prime numbers. 7*7 = 49 <= 50, 7*8 = 56 > 50 out of range. Considering 8, all multiple <8 were already covered so 8*8 = 64 > 50 out of range.
+7 \* b, considering multiples of 7 i.e (1, 2, 3, 4, 5, 6, 7, so on) b < 7 the result of their multiples were already marked as not prime numbers. 7\*7 = 49 <= 50, 7\*8 = 56 > 50 out of range. Considering 8, all multiple <8 were already covered so 8\*8 = 64 > 50 out of range.
 
 ```cpp
 #define max 1000000

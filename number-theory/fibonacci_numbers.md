@@ -18,8 +18,10 @@ int fib(int n){
 
 To find the fibonacci number series in O(logn) time complexity we need to understand the below method.
 
+<pre>
 | fn0 fn1 | x | a b | = | fn1 fn2 |
-| c d |
+              | c d |
+<pre>
 
 here fn0 and fn1 are initial numbers of the sequence and a b c d is transition matrix, on multiplication with transition matrix the result will be fn1 and fn2
 
