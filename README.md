@@ -27,7 +27,7 @@ Here, I am maintaining record of some important problems I have solved on variou
 - [Prime Factorization](number-theory/prime_factorization.md)
 - [Sieve of Eratosthenes](number-theory/primality_test.md)
 - [Binary Exponentiation](number-theory/binary_exponentiation.md)
-- Euclid Algorithm for GCD
+- [Euclid Algorithm for GCD](number-theory/euclid_algorithm.md)
 - Goldbach's Conjecture
 - Finding number of divisors of N
 - Calculating Binomial Coefficient
