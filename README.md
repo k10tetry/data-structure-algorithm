@@ -28,21 +28,8 @@ Here, I am maintaining record of some important problems I have solved on variou
 - [Sieve of Eratosthenes](number-theory/primality_test.md)
 - [Binary Exponentiation](number-theory/binary_exponentiation.md)
 - [Euclid Algorithm for GCD](number-theory/euclid_algorithm.md)
-- Goldbach's Conjecture
-- Finding number of divisors of N
-- Calculating Binomial Coefficient
-- Segmented Sieve
-- Modulo inverse
-
-- Extended Euclidean Algorithm
-- Linear diophantine equation
 - [Matrix exponentiation](number-theory/matrix_exponentiation.md)
 - [Fibonacci numbers in O(logn)](number-theory/fibonacci_numbers.md)
-- Chinese Remainder Theorm
-- Euler Totient Fuction
-- Sum of divisors
-- Pollard p-1 method
-- Pollard Rho Algorithm
 
 ## Advance Topics
 
