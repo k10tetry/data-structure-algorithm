@@ -25,7 +25,9 @@ int main(){
 int binarySearch(int a[], int low, int high, int num){
     int mid;
     while (low <= high){
-        mid = (low + high) / 2;
+        // This will overflow if array is of large size
+        // mid = (low + high) / 2;
+        mid = low + (high - low) / 2;
         if (a[mid] == num){
             return mid;
         } else if (a[mid] < num){
