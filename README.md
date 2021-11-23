@@ -19,6 +19,8 @@ Here, I am maintaining record of some important problems I have solved on variou
 - Recursion
 - Dynamic Programming
 - Searching Algorithm
+    - Linear Search
+    - [Binary Search](algorithm/binary_search.md)
 - Sorting Algorithm
 
 ### Number Theory
