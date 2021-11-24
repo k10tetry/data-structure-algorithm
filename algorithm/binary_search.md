@@ -12,4 +12,9 @@ We basically ignore half of the elements just after one comparison.
 4. Else (x is smaller) recur for the left half.
 
 Iterative Implementation: [link](./code/binary_search_iterative.cpp)
-Recursive Implementation:
+Recursive Implementation: **TODO**
+
+Problems solved using Binary Search:
+
+1. Sqrt(x) [link](/leetcode/binary-search/69_sqrt_x.cpp)
+2. Count negative numbers in a sorted matrix [link](/leetcode/binary-search/1351_count_negative_numbers_in_a_sorted_matrix.cpp)
