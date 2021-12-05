@@ -14,7 +14,7 @@ We basically ignore half of the elements just after one comparison.
 Iterative Implementation: [link](./code/binary_search_iterative.cpp)
 Recursive Implementation: **TODO**
 
-Problems solved using Binary Search:
+### Problems Solved:
 
 1. Sqrt(x) [link](/leetcode/binary-search/69_sqrt_x.cpp)
 2. Count negative numbers in a sorted matrix [link](/leetcode/binary-search/1351_count_negative_numbers_in_a_sorted_matrix.cpp)

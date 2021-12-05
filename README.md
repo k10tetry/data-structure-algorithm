@@ -11,6 +11,7 @@ Here, I am maintaining record of some important problems I have solved on variou
 - [Linked List](data-structure/linked_list.md)
 - [Stack](data-structure/stack.md)
 - [Queue](data-structure/queue.md)
+- [Trie](data-structure/trie.md)
 
 ### Alogithms
 
