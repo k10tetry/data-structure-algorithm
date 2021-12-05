@@ -6,12 +6,12 @@ Here, I am maintaining record of some important problems I have solved on variou
 
 ### Data Structure
 
-- [String](data-structure/string.md)
-- [Array](data-structure/array.md)
-- [Linked List](data-structure/linked_list.md)
-- [Stack](data-structure/stack.md)
-- [Queue](data-structure/queue.md)
-- [Trie](data-structure/trie.md)
+- [String](data-structure/string.md)(2)
+- [Array](data-structure/array.md)(2)
+- [Linked List](data-structure/linked_list.md)(2)
+- [Stack](data-structure/stack.md)(2)
+- [Queue](data-structure/queue.md)(2)
+- [Trie](data-structure/trie.md)(1)
 
 ### Alogithms
 
@@ -21,22 +21,22 @@ Here, I am maintaining record of some important problems I have solved on variou
 - Dynamic Programming
 - Searching Algorithm
     - Linear Search
-    - [Binary Search](algorithm/binary_search.md)
+    - [Binary Search](algorithm/binary_search.md)(1)
 - Sorting Algorithm
 
 ### Number Theory
 
-- [Primality Test](number-theory/primality_test.md)
-- [Prime Factorization](number-theory/prime_factorization.md)
-- [Sieve of Eratosthenes](number-theory/primality_test.md)
-- [Binary Exponentiation](number-theory/binary_exponentiation.md)
-- [Euclid Algorithm for GCD](number-theory/euclid_algorithm.md)
-- [Matrix exponentiation](number-theory/matrix_exponentiation.md)
-- [Fibonacci numbers in O(logn)](number-theory/fibonacci_numbers.md)
+- [Primality Test](number-theory/primality_test.md)(2)
+- [Prime Factorization](number-theory/prime_factorization.md)(2)
+- [Sieve of Eratosthenes](number-theory/primality_test.md)(2)
+- [Binary Exponentiation](number-theory/binary_exponentiation.md)(2)
+- [Euclid Algorithm for GCD](number-theory/euclid_algorithm.md)(2)
+- [Matrix exponentiation](number-theory/matrix_exponentiation.md)(2)
+- [Fibonacci numbers in O(logn)](number-theory/fibonacci_numbers.md)(2)
 
 ## Advance Topics
 
-- [Pointers](other/pointers.md)
+- [Pointers](other/pointers.md)(4)
 
 ## MIT License
 
