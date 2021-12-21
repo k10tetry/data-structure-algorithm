@@ -44,6 +44,10 @@ bool isPrime(int n){
 }
 ```
 
+Problems:
+
+- [Musical Chairs](/codechef/musical_chairs.cpp)
+
 ## Sieve of Eratosthenes
 
 Sieve of Eratosthenes is an algorithm for finding all the prime number in a segment [1:n] using O(nloglogn) operations.
