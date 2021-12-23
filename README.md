@@ -15,7 +15,7 @@ Here, I am maintaining record of some important problems I have solved on variou
 
 ### Alogithms
 
-- Algorithm Analysis
+- [Algorithm Analysis](algorithm/algorithm_analysis.md)
 - Greedy Algorithm
 - Recursion
 - Dynamic Programming
