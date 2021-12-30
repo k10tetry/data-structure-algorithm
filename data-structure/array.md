@@ -22,6 +22,19 @@ int main()
     // access and print value at 0 index we get the output
     // as 5.
     cout << arr[0];
+
+    // various initialization ways
+    int myArray[10] = { 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 };
+    int myArray2[10] = {0};
+    int myArray3[10] = {};
+
     return 0;
 }
+```
+Passing array to the functions
+
+```cpp
+    void func(int *arr, int size);
+    void func(int arr[], int size);
+    void func(int arr[][2], int size);
 ```
