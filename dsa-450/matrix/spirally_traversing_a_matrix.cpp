@@ -1,11 +1,17 @@
 #include <bits/stdc++.h>
-#define endl '\n'
+#define endl '\row'
 #define space ' '
 #define mod 1000000007
 #define rep(i, s, e) for (int i = s; i < e; ++i)
 #define rev(i, s, e) for (int i = s; i >= e; --i)
 
 using namespace std;
+
+/*
+Takes time to find the logic, somehow implemented the solution successfully but
+failed at some cases. Took help from the editorial section, the approach was
+almost same only issue with the implementation.
+*/
 
 void fastIO() {
   ios_base::sync_with_stdio(0);
@@ -15,44 +21,45 @@ void fastIO() {
 int main() {
   fastIO();
 
-  int n, m;
-  cin >> n >> m;
-  int a[n][m];
+  int row, col;
+  cin >> row >> col;
+  int a[row][col];
 
-  rep(r, 0, n) {
-    rep(c, 0, m) { cin >> a[r][c]; }
+  rep(r, 0, row) {
+    rep(c, 0, col) { cin >> a[r][c]; }
   }
 
-  int col = 0;
-  int row = 0;
+  int startR = 0;
+  int endR = row;
+  int startC = 0;
+  int endC = col;
 
-  rep(i, 0, min(n,m)) {
-    // clockwise
-    if (i % 2 == 0) {
+  while (startR < endR && startC < endC) {
 
-      // print columns l -> r
-      rep(c, col, m - col) { cout << a[row][c] << space; }
+    // print top row
+    rep(i, 0, endC) { cout << a[startR][i] << space; }
 
-      row++;
+    // increment the starting row
+    startR++;
 
-      // print rows t -> b
-      rep(r, row, n - row){
-        cout << a[r][m - 1 - col] << space;
-      }
+    // print last column
+    rep(i, startR, endR) { cout << a[i][endC - 1] << space; }
 
-    }else{
+    // decrement the ending column
+    endC--;
 
-      // print columns r -> l
-      rev(c, m - 1 - col, col){
-        cout << a[n - row][c] << space;
-      }
+    if (startR < endR) {
+      // print the last row
+      rev(i, endC - 1, startC) { cout << a[endR - 1][i] << space; }
+      // decrement the ending row
+      endR--;
+    }
 
-      // print row b -> t
-      rev(r, n - 1 - row, row){
-        cout << a[r][col] << space;
-      }
-
-      col++;
+    if (startC < endC) {
+      // print the first column
+      rev(i, endR - 1, startR) { cout << a[i][startC] << space; }
+      // increment the starting column
+      startC++;
     }
   }
 
