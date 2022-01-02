@@ -27,3 +27,7 @@ Omega notation represents the lower bound of the running time of an algorithm. T
 Theta notation encloses the function from above and below. Since it represents the upper and the lower bound of the running time of an algorithm, it is used for analyzing the average-case complexity of an algorithm.
 
 Θ(g(n)) = { f(n): there exist positive constants c1, c2 and n0 such that 0 ≤ c1g(n) ≤ f(n) ≤ c2g(n) for all n ≥ n0 }
+
+## Time Complexities
+
+O(1) < O(loglog n) < O(log n) < O(sqrt n) < O(n) < O(nlog n) < O(n^2) < O(2^n) < (n!)
