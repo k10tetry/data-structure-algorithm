@@ -12,6 +12,7 @@ Here, I am maintaining record of some important problems I have solved on variou
 - [Stack](data-structure/stack.md)(2)
 - [Queue](data-structure/queue.md)(2)
 - [Trie](data-structure/trie.md)(1)
+- [Binary Tree](data-structure/binary_tree.md)
 
 ### Alogithms
 
