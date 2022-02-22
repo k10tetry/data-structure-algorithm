@@ -7,14 +7,14 @@ Binary exponentiation (also known as exponentiation by squaring) is a trick whic
 ```cpp
 int expo(int value, int pow){
     int res = 1;
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < pow; i++){
         res *= value;
     }
     return res;
 }
 ```
 
-The complexity of above approach is **O(logn)**
+The complexity of above approach is **O(n)**
 
 ## Binary Approach
 
