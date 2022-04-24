@@ -30,4 +30,4 @@ Theta notation encloses the function from above and below. Since it represents t
 
 ## Time Complexities
 
-O(1) < O(loglog n) < O(log n) < O(sqrt n) < O(n) < O(nlog n) < O(n^2) < O(2^n) < (n!)
+O(1) < O(loglog n) < O(log n) < O(sqrt n) < O(n) < O(nlog n) < O(n^2) < O(2^n) < O(n!)
