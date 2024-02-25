@@ -24,17 +24,40 @@ There are 3 ways to pass C++ arguments to function:
 int square(int n){ // call by value
     return n * n;   // create copy of n
 }
+
+int main(){
+    int num = 10;
+    square(num);
+
+    return 0;
+}
 ```
 
 ```cpp
 void square(int* n){ // call by reference with pointer argument
     *n *= *n;   // explicit de-referencing to get the value of pointer
 }
+
+int main(){
+    int num = 10;
+    int* ptr = &num;
+    square(ptr); // or square(&num);
+
+    return 0;
+}
 ```
 
 ```cpp
 void square(int &n){ // call by reference with reference argument
     n *= n;     // implicit de-referencing without (*), Pass-by-Reference with Reference Arguments does not require any clumsy syntax for referencing and dereferencing.
+}
+
+int main(){
+    int num = 10;
+    int* ptr = &num;
+    square(*ptr); // or square(num);
+
+    return 0;
 }
 ```
 
@@ -46,6 +69,7 @@ An array name contains the address of first element of the array which acts like
 int val[3] = {1,2,3};
 int* ptr = val; // or ptr = &val[0] both are same
 cout<< ptr[0] << ptr[1] << ptr[2];
+cout<< *val << *(val + 1) << *(val + 2);
 ```
 
 ## Pointer Expressions and Pointer Arithmetic
@@ -58,6 +82,16 @@ A limited set of arithmetic operations can be performed on pointers which are:
 - an integer may be subtracted from a pointer ( – or -= )
 - difference between two pointers (p1-p2)
 
+```cpp
+int val = 10;
+int* ptr = val;
+
+++(*ptr);
+cout<< val; // return 11
+
+(*ptr)--;
+cout<< val; // return 9
+```
 ## Advanced Pointer Notation
 
 Consider pointer notation for the two-dimensional numeric arrays. consider the following declaration
