@@ -39,6 +39,10 @@ Here, I am maintaining record of some important problems I have solved on variou
 
 - [Pointers](other/pointers.md)(4)
 
+## Interview Questions
+
+- [Water Collection](https://pl.kotl.in/WIm1Q0B1w?theme=darcula)
+
 ## MIT License
 
 Copyright (c) 2021 Ketan Tetry
