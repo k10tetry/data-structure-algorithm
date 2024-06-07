@@ -98,10 +98,24 @@ for (int i = 1; p <= n; ++i){
   p = p + i;
 }
 ```
-### Complexity: O(n)
+### Complexity: O(log<sub>2</sub> n)
 Here the i is incrementing as 2 -> 2<sup>2</sup> -> 2<sup>3</sup> -> 2<sup>k</sup>, it will stop when i >= n -> 2<sup>k</sup> n -> k >= log<sub>2</sub>n
 ```cpp
 for (int i = 1; i < n; i = i * 2){
+  cout << i << endl;
+}
+```
+### Complexity: O(log<sub>2</sub> n)
+Here the i is incrementing as n/2 -> n/2<sup>2</sup> -> n/2<sup>3</sup> -> n/2<sup>k</sup>, it will stop when i < n/2<sup>k</sup> -> n = 2<sup>k</sup> -> log<sub>2</sub>n = k
+```cpp
+for (int i = n; i >= 1; i = i / 2){
+  cout << i << endl;
+}
+```
+### Complexity: O(sqrt n)
+The program will stop when i<sup>2</sup> = n -> i = sqrt n
+```cpp
+for (int i = 0; i * i < n; i++){
   cout << i << endl;
 }
 ```
