@@ -31,3 +31,77 @@ Theta notation encloses the function from above and below. Since it represents t
 ## Time Complexities
 
 O(1) < O(loglog n) < O(log n) < O(sqrt n) < O(n) < O(nlog n) < O(n^2) < O(2^n) < O(n!)
+
+## Analysis
+
+### Complexity: O(n)
+Loop run for n times
+```cpp
+for (int i = 0; i < n; ++i){
+  cout << i << endl;
+}
+```
+### Complexity: O(n)
+Loop run for n times
+```cpp
+for (int i = n; i > 0; --i){
+  cout << i << endl;
+}
+```
+### Complexity: O(n<sup>2</sup>)
+First loop run for n times and second loop also run for n times
+```cpp
+for (int i = 0; i < n; ++i){
+  for (int j = 0; j < n; ++j){
+  	cout << i << j << endl;
+  }
+}
+```
+### Complexity: O(n<sup>3</sup>)
+First, second and third loop run for n times
+```cpp
+for (int i = 0; i < n; ++i){
+  for (int j = 0; j < n; ++j){
+  	for (int k = 0; k < n; ++k){
+  		cout << i << j << k << endl;
+  	}
+  }
+}
+```
+### Complexity: O(n<sup>2</sup>)
+The total number of times code will run is n(n+1)/2 => n<sup>2</sup>
+i | j | times
+:--- | :--- | :---
+0 | 0 | 0
+1 | 0, 1 | 1
+2 | 0, 1, 2 | 2
+3 | 0, 1, 2, 3 | 3
+n | 0, 1, 2 ,3...n | n
+```cpp
+for (int i = 0; i < n; ++i){
+  for (int j = 0; j < i; ++j){
+  	cout << i << j << endl;
+  }
+}
+```
+### Complexity: O(sqrt n)
+The program stops when p > n, as p = k(k+1)/2 => k<sup>2</sup> > n => k > sqrt n
+i | p
+:--- | :---
+1 | 0 + 1
+2 | 1 + 2
+3 | 1 + 2 + 3
+k | 1 + 2 + 3 + ... + k
+```cpp
+int p = 0
+for (int i = 1; p <= n; ++i){
+  p = p + i;
+}
+```
+### Complexity: O(n)
+Here the i is incrementing as 2 -> 2<sup>2</sup> -> 2<sup>3</sup> -> 2<sup>k</sup>, it will stop when i >= n -> 2<sup>k</sup> n -> k >= log<sub>2</sub>n
+```cpp
+for (int i = 1; i < n; i = i * 2){
+  cout << i << endl;
+}
+```
